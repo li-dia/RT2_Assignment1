@@ -3,7 +3,9 @@
 """
 .. module:: last_target_service
    :platform: Unix
-   :synopsis: Python module that implements a service server node that provides the last target coordinates set by the user.
+   :synopsis: 
+   
+   Python module that implements a service server node that provides the last target coordinates set by the user.
    
    The node subscribes to the /reaching_goal/goal topic to get the target coordinates.
 

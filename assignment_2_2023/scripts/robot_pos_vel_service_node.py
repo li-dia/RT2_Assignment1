@@ -3,7 +3,9 @@
 """
 .. module:: robot_pos_vel_service_node
    :platform: Unix
-   :synopsis: Python module that subscribes to the robot's position and velocity (using the custom message) and implements a server to retrieve the distance of the robot from the target and the robot's average speed.
+   :synopsis: 
+   
+   Python module that subscribes to the robot's position and velocity (using the custom message) and implements a server to retrieve the distance of the robot from the target and the robot's average speed.
 
 .. moduleauthor:: Lidia Loubar
 

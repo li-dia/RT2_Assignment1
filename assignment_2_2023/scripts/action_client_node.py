@@ -3,9 +3,9 @@
 """
 .. module:: action_client_node
     :platform: Unix
-    :synopsis: Python module that implements an action client, allowing the user to set a target (x, y) position for the robot or to cancel it.
+    :synopsis: 
     
-    The node also publishes the robot's position and velocity on a custom message.
+    Python module that implements an action client, allowing the user to set a target (x, y) position for the robot or to cancel it. The node also publishes the robot's position and velocity on a custom message.
 
 .. moduleauthor:: Lidia Loubar
 
