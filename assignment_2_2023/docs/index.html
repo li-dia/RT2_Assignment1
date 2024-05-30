@@ -122,7 +122,7 @@
 </section>
 <section id="module-scripts.action_client_node">
 <span id="action-client-node-module"></span><h1>Action_client_node Module<a class="headerlink" href="#module-scripts.action_client_node" title="Permalink to this heading"></a></h1>
-<span class="target" id="module-action_client_node"></span><p>The node also publishes the robot’s position and velocity on a custom message.</p>
+<span class="target" id="module-action_client_node"></span><p>Python module that implements an action client, allowing the user to set a target (x, y) position for the robot or to cancel it. The node also publishes the robot’s position and velocity on a custom message.</p>
 <p><em>Module author: Lidia Loubar</em></p>
 <dl class="simple">
 <dt>Subscribes to:</dt><dd><p>/odom: Subscribes to the Odometry message to extract the robot’s position and velocity.</p>
@@ -193,7 +193,8 @@ The action is defined in the assignment_2_2023 package.</p>
 </section>
 <section id="module-scripts.last_target_service">
 <span id="last-target-service-module"></span><h1>Last_target_service Module<a class="headerlink" href="#module-scripts.last_target_service" title="Permalink to this heading"></a></h1>
-<span class="target" id="module-last_target_service"></span><p>The node subscribes to the /reaching_goal/goal topic to get the target coordinates.</p>
+<span class="target" id="module-last_target_service"></span><p>Python module that implements a service server node that provides the last target coordinates set by the user.</p>
+<p>The node subscribes to the /reaching_goal/goal topic to get the target coordinates.</p>
 <p><em>Module author: Lidia Loubar</em></p>
 <dl class="simple">
 <dt>Subscribes to:</dt><dd><p>/reaching_goal/goal: Subscribes to the PlanningActionGoal message to extract the target coordinates.</p>
@@ -223,7 +224,8 @@ The service is defined in the assignment_2_2023 package.</p>
 </section>
 <section id="module-scripts.robot_pos_vel_service_node">
 <span id="robot-pos-vel-service-node-module"></span><h1>Robot_pos_vel_service_node Module<a class="headerlink" href="#module-scripts.robot_pos_vel_service_node" title="Permalink to this heading"></a></h1>
-<span class="target" id="module-robot_pos_vel_service_node"></span><p><em>Module author: Lidia Loubar</em></p>
+<span class="target" id="module-robot_pos_vel_service_node"></span><p>Python module that subscribes to the robot’s position and velocity (using the custom message) and implements a server to retrieve the distance of the robot from the target and the robot’s average speed.</p>
+<p><em>Module author: Lidia Loubar</em></p>
 <dl>
 <dt>Subscribes to:</dt><dd><p>/custom_topic: Subscribes to the CustomMessage to extract the robot position and velocity.</p>
 </dd>
